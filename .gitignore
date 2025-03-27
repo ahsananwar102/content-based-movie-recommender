@@ -1,0 +1,29 @@
+
+# 🚀 Ignore virtual environments
+venv/
+*.venv/
+ENV/
+env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# 🚀 Ignore logs and unnecessary files
+*.log
+*.csv
+*.json
+
+# Ignore large `.pkl` files (except movies_df.pkl)
+*.pkl
+!movies_df.pkl
+!similarity.pkl
+
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
